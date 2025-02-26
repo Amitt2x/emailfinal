@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.email-container {
+    max-width: 600px;
+    margin: auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+}
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+.apply-btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.apply-btn:hover {
+    background: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size */
+}
+
+.social-links img {
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%; /* Makes the images circular */
+    object-fit: cover; /* Ensures the image fills the circle */
+    border: 2px solid #ccc; /* Optional: Adds a border */
+    transition: transform 0.3s ease;
+}
+
+
+.social-links a img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+.gallery img {
+    max-width: 100px; /* Keeps images responsive */
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+}
